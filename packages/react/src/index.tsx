@@ -1,5 +1,5 @@
 import { colors } from '@design-ui/tokens'
 
-export function App() {
-  return <h1 style={{ color: colors.green300 }}>Hello World</h1>
+export function Button() {
+  return <button className="bg-green-500 text-zinc-300 p-10"> abc </button>
 }
