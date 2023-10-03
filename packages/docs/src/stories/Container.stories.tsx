@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button } from '@design-ui/react/'
+import { Container } from '@design-ui/react/src/container'
 
 export default {
-  title: 'Button',
-  component: Button,
+  title: 'Container',
+  component: Container,
   args: {
     children: 'teste',
   },
