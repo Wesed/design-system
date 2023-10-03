@@ -20,14 +20,14 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.tsx
 var src_exports = {};
 __export(src_exports, {
-  Button: () => Button
+  App: () => App
 });
 module.exports = __toCommonJS(src_exports);
 var import_jsx_runtime = require("react/jsx-runtime");
-function Button() {
-  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { className: "bg-green-500 text-zinc-300 p-10", children: " abc " });
+function App() {
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: " app " });
 }
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  Button
+  App
 });
