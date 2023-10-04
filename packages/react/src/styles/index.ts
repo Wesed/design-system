@@ -5,7 +5,7 @@ import {
   fontWeights,
   fonts,
   lineHeights,
-  radius,
+  radii,
   space,
 } from '@design-ui/tokens'
 
@@ -30,7 +30,7 @@ export const {
     fontWeights,
     fonts,
     lineHeights,
-    radius,
+    radii,
     space,
   },
 })
