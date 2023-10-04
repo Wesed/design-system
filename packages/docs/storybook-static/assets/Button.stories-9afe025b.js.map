@@ -1,1 +1,0 @@
-{"version":3,"file":"Button.stories-9afe025b.js","sources":["../../../react/src/button.tsx"],"sourcesContent":["export function Button() {\n  return <button className=\"bg-green700 text-green300 p-10\"> abac </button>\n}\n"],"names":["Button","jsx"],"mappings":"iHAAO,SAASA,GAAS,CACvB,OAAQC,EAAAA,IAAA,SAAA,CAAO,UAAU,iCAAiC,SAAM,QAAA,CAAA,CAClE"}
