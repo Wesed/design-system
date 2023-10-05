@@ -37,7 +37,7 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.tsx
 var src_exports = {};
 __export(src_exports, {
-  Button: () => Button
+  Box: () => Box
 });
 module.exports = __toCommonJS(src_exports);
 
@@ -47,7 +47,6 @@ var import_react = require("@stitches/react");
 // ../tokens/dist/index.mjs
 var colors = {
   white: "#FFF",
-  black: "#000",
   gray100: "#E1E1E6",
   gray200: "#A9A9B2",
   gray400: "#7C7C8A",
@@ -56,6 +55,7 @@ var colors = {
   gray700: "#29292E",
   gray800: "#202024",
   gray900: "#121214",
+  black: "#000",
   green300: "#00B37E",
   green500: "#00875F",
   green700: "#015F43",
@@ -143,31 +143,14 @@ var {
   }
 });
 
-// src/index.tsx
-var Button = styled("button", {
-  fontFamily: "$default",
-  backgroundColor: "$green300",
-  borderRadius: "$sm",
-  border: 0,
-  fontWeight: "bold",
-  color: "$white",
-  variants: {
-    size: {
-      small: {
-        fontSize: 14,
-        padding: "$2 $4"
-      },
-      big: {
-        fontSize: 16,
-        padding: "$3 $6"
-      }
-    }
-  },
-  defaultVariants: {
-    size: "small"
-  }
+// src/components/Box.ts
+var Box = styled("div", {
+  padding: "$4",
+  borderRadius: "$md",
+  backgroundColor: "$gray800",
+  border: "1px solid $gray600"
 });
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  Button
+  Box
 });

@@ -2,12 +2,9 @@ import * as _stitches_react_types_styled_component from '@stitches/react/types/s
 import * as _stitches_react_types_css_util from '@stitches/react/types/css-util';
 import { ComponentProps } from 'react';
 
-declare const Button: _stitches_react_types_styled_component.StyledComponent<"button", {
-    size?: "big" | "small" | undefined;
-}, {}, _stitches_react_types_css_util.CSS<{}, {
+declare const Box: _stitches_react_types_styled_component.StyledComponent<"div", {}, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {
         readonly white: "#FFF";
-        readonly black: "#000";
         readonly gray100: "#E1E1E6";
         readonly gray200: "#A9A9B2";
         readonly gray400: "#7C7C8A";
@@ -16,6 +13,7 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         readonly gray700: "#29292E";
         readonly gray800: "#202024";
         readonly gray900: "#121214";
+        readonly black: "#000";
         readonly green300: "#00B37E";
         readonly green500: "#00875F";
         readonly green700: "#015F43";
@@ -206,6 +204,6 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
     transition: "transitions";
     zIndex: "zIndices";
 }, {}>>;
-type ButtonProps = ComponentProps<typeof Button>;
+type BoxProps = ComponentProps<typeof Box>;
 
-export { Button, ButtonProps };
+export { Box, BoxProps };
