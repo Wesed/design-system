@@ -7,7 +7,14 @@ export default {
   args: {
     src: 'https://github.com/wesed.png',
     alt: 'Weslley Eduardo',
-  }, // spell-checker: disable  },:
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
