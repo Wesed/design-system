@@ -27,5 +27,5 @@ export const Disabled: StoryObj<TextInputProps> = {
 }
 
 export const WidthPrefix: StoryObj<TextInputProps> = {
-  args: { prefix: 'cal.com/' },
+  args: { prefix: 'cal.com/', placeholder: 'your-username' },
 }
